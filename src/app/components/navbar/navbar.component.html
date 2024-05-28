@@ -1,0 +1,24 @@
+<div class="header">
+    <div>
+        <img src="../../../assets/logo1.png" class="logo">
+    </div>
+    <nav class="menu">
+        <div class="site-nav">
+            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+                ariaCurrentWhenActive="page">Home</a>
+            <a routerLink="/rules" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+                ariaCurrentWhenActive="page">Rules</a>
+            <a routerLink="/quiz-join" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+                ariaCurrentWhenActive="page">Take
+                QUIZ</a>
+            <a routerLink="/profile" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+                ariaCurrentWhenActive="page">Profile</a>
+        </div>
+        <div class="flex">
+            <mat-slide-toggle class="toggle-flex" color="primary">Dark/Light!</mat-slide-toggle>
+            <button>
+                <img src="../../../assets/menu-icon.png" alt="menu-icon" class="menu-icon">
+            </button>
+        </div>
+    </nav>
+</div>

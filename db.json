@@ -1,0 +1,299 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "content": "What language does Node.js use?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Java",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Java Source",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "JavaScript",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "Joomla Source Code",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "content": "In computing, what does LAN stand for?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Long Antenna Node",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Local Area Network",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Light Access Node",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Land Address Navigation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "content": "In web design, what does CSS stand for?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Counter Strike: Source",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Cascading Style Sheet",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Corrective Style Sheet",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Computer Style Sheet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "content": "How long is an IPv6 address?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "32 bits",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "128 bits",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "64 bits",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "128 bytes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "content": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Microsoft",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Apple",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Atari",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Commodore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "content": "What was the first Android version specifically optimized for tablets?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Eclair",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Froyo",
+          "isCorrect": false
+        },
+        {
+          "id": "c",
+          "content": "Honeycomb",
+          "isCorrect": true
+        },
+        {
+          "id": "d",
+          "content": "Marshmellow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "content": "On which day did the World Wide Web go online?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "December 17, 1996",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "December 20, 1990",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "November 12, 1990",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "November 24, 1995",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "content": ".rs is the top-level domain for what country?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Romania",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Serbia",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Russia",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Rwanda",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "content": "What does the acronym CDN stand for in terms of networking?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Content Distribution Network",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Content Delivery Network",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Computational Data Network",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Compressed Data Network",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "content": "In computing terms, typically what does CLI stand for?",
+      "marks": 1,
+      "negativeMarks": 1,
+      "options": [
+        {
+          "id": "a",
+          "content": "Common Language Input",
+          "isCorrect": false
+        },
+        {
+          "id": "b",
+          "content": "Command Line Interface",
+          "isCorrect": true
+        },
+        {
+          "id": "c",
+          "content": "Control Line Interface",
+          "isCorrect": false
+        },
+        {
+          "id": "d",
+          "content": "Common Language Interface",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "name": "Science: Computer Quiz 1",
+      "code": "SCQ1",
+      "questions": [1, 2, 3, 4, 5]
+    },
+    {
+      "id": "2",
+      "name": "Science: Computer Quiz 2",
+      "code": "SCQ2",
+      "questions": [6, 7, 8, 9, 10]
+    }
+  ],
+  "quizResults": []
+}

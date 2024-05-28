@@ -1,0 +1,27 @@
+.home-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  background: var(--light-color);
+  padding: 24px;
+  width: 800px;
+  height: 600px;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: 0 4px 6px rgba(136, 84, 192, 0.3),
+    0 1px 3px rgba(136, 84, 192, 0.3);
+}
+
+.home-wrapper img {
+  width: 600px;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .home-wrapper img {
+    width: 300px;
+  }
+}

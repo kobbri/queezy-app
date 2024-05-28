@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #8854c0;
+}
+
+.header .logo {
+  height: 50px;
+}
+
+.header .menu {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
+.header a {
+  color: var(--light-color);
+  text-decoration: none;
+  padding: var(--padding-lg) var(--padding-xl);
+}
+
+.header a:hover {
+  background-color: #6c4298;
+}
+
+.header .site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .account-btn:hover {
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #6c4298;
+  transform: scale(1.1);
+  transition: border-bottom 0.3s ease, color 0.3 ease, transform 0.3 ease;
+}
+
+.toggle-flex {
+  display: flex;
+  padding: 20px;
+}
+
+.menu-icon {
+  display: none;
+  width: 24px;
+  cursor: pointer;
+}
+
+.menu button {
+  margin-right: var(--margin-xl);
+  color: #8854c0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .header a {
+    display: none;
+  }
+}

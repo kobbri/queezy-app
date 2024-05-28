@@ -1,0 +1,16 @@
+<div class="card-position">
+    <div class="wrapper">
+        <h4>Please enter quiz code and your name</h4>
+        <div class="quiz-join-card">
+            <mat-form-field>
+                <mat-label>Code</mat-label>
+                <input type="text" matInput [(ngModel)]="code" placeholder="Enter Code">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input type="text" matInput [(ngModel)]="name" placeholder="Enter your name">
+            </mat-form-field>
+            <button class="quiz-join-btn" (click)="join()">join</button>
+        </div>
+    </div>
+</div>
