@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --light-purple-color: #8854c0;
+  --light-color: #fff;
+  --dark-color: #000;
+  --grey-color: #f2f2f2;
+  --dark-theme: #333;
+  --dark-theme-card: #555;
+  --transition: all 300ms ease-in-out;
+
+  --margin-xs: 4px;
+  --margin-sm: 8px;
+  --margin-md: 12px;
+  --margin-lg: 20px;
+  --margin-xl: 24px;
+
+  --padding-xs: 4px;
+  --padding-sm: 8px;
+  --padding-md: 12px;
+  --padding-lg: 20px;
+  --padding-xl: 24px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: var(--dark-theme);
+  color: var(--light-color);
+
+  button {
+    background-color: var(--light-purple-color);
+    color: var(--light-color);
+
+    &:hover {
+      background-color: #6c4298;
+    }
+  }
+
+  .home-wrapper {
+    background: var(--dark-theme-card);
+  }
+
+  .rules-wrapper {
+    background: var(--dark-theme-card);
+  }
+
+  .wrapper {
+    background: var(--dark-theme-card);
+  }
+
+  .quiz-wrapper {
+    background: var(--dark-theme-card);
+  }
+
+  .score-wrapper {
+    background: var(--dark-theme-card);
+  }
+
+  .custom-btn {
+    background-color: var(--grey-color);
+  }
+
+  h1 {
+    color: var(--light-color);
+  }
+}
+
+.light {
+  background-color: var(--grey-color);
+  color: var(--dark-color);
+
+  button {
+    background-color: var(--light-purple-color);
+    color: var(--light-color);
+
+    &:hover {
+      background-color: #6c4298;
+    }
+  }
+
+  .home-wrapper {
+    background: var(--light-color);
+  }
+
+  .rules-wrapper {
+    background: var(--light-color);
+  }
+
+  .wrapper {
+    background: var(--light-color);
+  }
+
+  .quiz-wrapper {
+    background: var(--light-color);
+  }
+
+  .score-wrapper {
+    background: var(--light-color);
+  }
+
+  .custom-btn {
+    background-color: var(--grey-color);
+  }
+}

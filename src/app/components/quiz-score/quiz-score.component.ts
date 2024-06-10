@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './quiz-score.component.html',
-  styleUrl: './quiz-score.component.css',
+  styleUrl: './quiz-score.component.scss',
 })
 export class QuizScoreComponent {
   testService = inject(TestService);

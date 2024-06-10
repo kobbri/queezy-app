@@ -286,14 +286,135 @@
       "id": "1",
       "name": "Science: Computer Quiz 1",
       "code": "SCQ1",
-      "questions": [1, 2, 3, 4, 5]
+      "questions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
       "id": "2",
       "name": "Science: Computer Quiz 2",
       "code": "SCQ2",
-      "questions": [6, 7, 8, 9, 10]
+      "questions": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
     }
   ],
-  "quizResults": []
+  "quizResults": [
+    {
+      "id": "770d",
+      "name": "Ionut",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": "c"
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "score": 1,
+      "correct": 1,
+      "incorrect": 3,
+      "unattempt": 1,
+      "percentage": 20
+    },
+    {
+      "id": "3ef7",
+      "name": "AAA",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "6ea3",
+      "name": "AEQ",
+      "quizId": "1",
+      "response": []
+    },
+    {
+      "id": "ba97",
+      "name": "322",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "a"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": "b"
+        }
+      ],
+      "score": 1,
+      "correct": 1,
+      "incorrect": 1,
+      "unattempt": 3,
+      "percentage": 20
+    },
+    {
+      "id": "0376",
+      "name": "ASE",
+      "quizId": "1",
+      "response": [
+        {
+          "questionId": "1",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "2",
+          "answerOptionId": "b"
+        },
+        {
+          "questionId": "3",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "4",
+          "answerOptionId": ""
+        },
+        {
+          "questionId": "5",
+          "answerOptionId": ""
+        }
+      ],
+      "score": 1,
+      "correct": 1,
+      "incorrect": 1,
+      "unattempt": 3,
+      "percentage": 20
+    }
+  ]
 }

@@ -9,7 +9,7 @@ import { MatRadioModule } from '@angular/material/radio';
   standalone: true,
   imports: [MatRadioModule],
   templateUrl: './quiz.component.html',
-  styleUrl: './quiz.component.css',
+  styleUrl: './quiz.component.scss',
 })
 export class QuizComponent {
   testService = inject(TestService);

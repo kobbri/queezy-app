@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [MatInputModule, FormsModule],
   templateUrl: './quiz-join.component.html',
-  styleUrl: './quiz-join.component.css',
+  styleUrl: './quiz-join.component.scss',
 })
 export class QuizJoinComponent {
   code!: string;
