@@ -1,32 +1,30 @@
-<div class="header">
-    <div>
-        <img src="../../../assets/logo1.png" class="logo">
-    </div>
-    <nav class="menu">
-        <div class="site-nav">
-            <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+<nav id="my-first">
+    <ul>
+        <li class="logotype">
+            <a routerLink="/"><img src="../../../assets/logo1.png" class="logo"></a>
+        </li>
+        <li class="burger" (click)="toggleMenu()">
+            <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+        </li>
+        <li class="menu" [class.is-open]="isMenuOpen">
+            <a class="menu-item" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
                 ariaCurrentWhenActive="page">Home</a>
-            <a routerLink="/rules" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
-                ariaCurrentWhenActive="page">Rules</a>
-            <a routerLink="/quiz-join" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
-                ariaCurrentWhenActive="page">Take
+            <a class="menu-item" routerLink="/rules" routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">Rules</a>
+            <a class="menu-item" routerLink="/quiz-join" routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">Take
                 QUIZ</a>
+        </li>
+        <div class="theme-control">
+            @if (themeService.themeSignal() === 'dark') {
+            <span (click)="toggleTheme()" class="material-symbols-outlined pointer">
+                dark_mode
+            </span>
+            } @else {
+            <span (click)="toggleTheme()" class="material-symbols-outlined pointer">
+                wb_sunny
+            </span>
+            }
         </div>
-        <div class="flex-baseline">
-            <div class="theme-control">
-                @if (themeService.themeSignal() === 'dark') {
-                <span (click)="toggleTheme()" class="material-symbols-outlined pointer">
-                    dark_mode
-                </span>
-                } @else {
-                <span (click)="toggleTheme()" class="material-symbols-outlined pointer">
-                    wb_sunny
-                </span>
-                }
-            </div>
-            <button class="custom-btn">
-                <img src="../../../assets/menu-icon.png" alt="menu-icon" class="menu-icon">
-            </button>
-        </div>
-    </nav>
-</div>
+    </ul>
+</nav>

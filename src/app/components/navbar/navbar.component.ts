@@ -15,4 +15,10 @@ export class NavbarComponent {
   toggleTheme() {
     this.themeService.updateTheme();
   }
+
+  isMenuOpen = false;
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
